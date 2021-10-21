@@ -1,6 +1,5 @@
 <?php
 include __DIR__ . "/database.php";
-$indexPath = __DIR__;
 ?>
 
 <!DOCTYPE html>
