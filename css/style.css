@@ -1,0 +1,64 @@
+/* reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* common */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.header{
+  padding: 10px 20px;
+  background-color: #2e3a46;
+}
+
+.logo img{
+  width: 100px;
+}
+
+/* main */
+main {
+  background-color: #1e2d3b;
+  overflow: auto;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.album{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 5 - 1.25rem);
+  background-color: #2e3a46;
+  margin-right: 1.25rem;
+  margin-bottom: 1.5625rem;
+  padding: 1.5625rem;
+  text-align: center;
+  cursor: pointer;
+}
+.album-img{
+  width: 100%;
+}
+.album-img img{
+  width: 100%;
+}
+.album-title{
+  margin: 20px 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+.album-author,
+.album-year{
+  color: #747677;
+}
+
