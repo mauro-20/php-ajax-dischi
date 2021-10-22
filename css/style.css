@@ -12,12 +12,17 @@ body{
 
 /* header */
 .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
   background-color: #2e3a46;
 }
-
 .logo img{
   width: 50px;
+}
+#genre-select{
+  width: 4rem;
 }
 
 /* main */
