@@ -28,11 +28,11 @@ include __DIR__ . "/database.php";
       <?php foreach ($database as $album) : ?>
         <div class="album">
           <div class="album-img">
-            <img src="<?php echo $album['poster'] ?>" alt="">
+            <img src="<?= $album['poster'] ?>" alt="">
           </div>
-          <h3 class="album-title"><?php echo $album['title'] ?></h3>
-          <div class="album-author"><?php echo $album['author'] ?></div>
-          <div class="album-year"><?php echo $album['year'] ?></div>
+          <h3 class="album-title"><?= $album['title'] ?></h3>
+          <div class="album-author"><?= $album['author'] ?></div>
+          <div class="album-year"><?= $album['year'] ?></div>
         </div>
       <?php endforeach ?>
     </div>
